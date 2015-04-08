@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CareerBuilder.com</title>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdn.foundation5.zurb.com/foundation.css">
     <link rel="stylesheet" href="css/application.css">
@@ -98,7 +98,7 @@
     <div class="hero-wrapper">
       <div class="hero">
         <div class="row">
-          <div class="column small-12 text-center">
+          <div class="column small-12">
             <h1>Find the Right Job. <strong>Right Now</strong></h1>
           </div>
         </div>
@@ -125,103 +125,103 @@
         </div>
       </div>
     </div>
-    <div id="resumeupload" style="text-align: center">
-      <div class="row">
+    <div id="resumeupload">
+      <div class="row get-started">
         <div class="small 10 small-offset-1 columns">
           <h3>Get Started <strong>with an account.</strong></h3>
+          <h5>Upload a resume to get started.</h5>
         </div>
       </div>
-      <div class="row">
-        <div class="small 10 small-offset-1 columns">
-          <h5 style= "font-size:1.5em;">Upload a resume to get started.</h5>
-        </div>
-      </div>
-      <div class="row">
+      <div class="row drag-drop">
         <div id="dragdrop-outline" class="small-10 small-offset-1 columns">
-          <div id="dragdrop" style="text-align: center">
-            <div class="row">
+          <div id="dragdrop">
+            <div class="row icon">
               <i class="fa fa-cloud-upload fa-5x" id="uploadimage"></i>
             </div>
-            <div class="row">
-              <span id="dragdropheader">
-                Drag &amp; Drop to upload
-              </span>
+            <div class="row drag-drop-header">
+              <div class="row">
+                <span class="cta-drag">
+                  Drag &amp; Drop to upload
+                </span>
+              </div>
+              <div class="row">
+                <span>
+                  or
+                </span>
+              </div>
+              <div class="row">
+                <a href="#" class="cta-click">Click to Browse</a>
+              </div>
             </div>
-            <div class="row">
-              <span style="display:block;padding-top:5px;padding-bottom:5px">
-                or
-              </span>
-            </div>
-            <div class="row">
-              <a href="#" style="text-decoration: none; font-family:Tahoma, Geneva;">Click to Browse</a>
-            </div>
-            <div class="row">
-              <span id="fileFormats">
-                We accept <span>DOC DOCX RTF TXT PDF</span> up to 1 MB
+            <div class="row file-formats">
+              <span>
+                We accept <strong>DOC DOCX RTF TXT PDF</strong> up to 1 MB
               </span>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <span style="font-size: 1.2em; color: blue">Why create an account?</span>
+        <span>Why create an account?</span>
       </div>
-      <div class="large-10 large-offset-1 columns end">
-        <div class="row" id="panelRow">
-          <div class="panel">
-            <div class="row">
-              <span class="fa-stack fa-3x">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-flag fa-stack-1x" style="color: #16B9B0;"></i>
-              </span>
+      <div class="row">
+        <div class="large-10 large-offset-1 columns end">
+          <div class="row" id="panelRow">
+            <div class="panel">
+              <div class="row">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-flag fa-stack-1x" style="color: #16B9B0;"></i>
+                </span>
+              </div>
+              <div class="row">
+                <hr>
+              </div>
+              <div class="row">
+                <span>Know when a company finds your resume</span>
+              </div>
             </div>
-            <div class="row">
-              <hr>
+            <div class="panel">
+              <div class="row">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-bolt fa-stack-1x" style="color: #7DC332;"></i>
+                </span>
+              </div>
+              <div class="row">
+                <hr>
+              </div>
+              <div class="row">
+                <span>Save up to 5 resumes to quickly apply to jobs</span>
+              </div>
             </div>
-            <div class="row">
-              <span>Know when a company finds your resume</span>
+            <div class="panel">
+              <div class="row">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-bell fa-stack-1x" style="color: #DC4B37;"></i>
+                </span>
+              </div>
+              <div class="row">
+                <hr>
+              </div>
+              <div class="row">
+                <span>Be notified when your application is viewed</span>
+              </div>
             </div>
-          </div>
-          <div class="panel">
-            <div class="row">
-              <span class="fa-stack fa-3x">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-bolt fa-stack-1x" style="color: #7DC332;"></i>
-              </span>
-            </div>
-            <div class="row">
-              <hr>
-            </div>
-            <div class="row">
-              <span>Save up to 5 resumes to quickly apply to jobs</span>
-            </div>
-          </div>
-          <div class="panel">
-            <div class="row">
-              <span class="fa-stack fa-3x">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-bell fa-stack-1x" style="color: #DC4B37;"></i>
-              </span>
-            </div>
-            <div class="row">
-              <hr>
-            </div>
-            <div class="row">
-              <span>Be notified when your application is viewed</span>
-            </div>
-          </div>
-          <div class="panel">
-            <div class="row">
-              <span class="fa-stack fa-3x">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-trophy fa-stack-1x" style="color: #00B9F0;"></i>
-              </span>
-            </div>
-            <div class="row">
-              <hr>
-            </div>
-            <div class="row">
-              <span>View the competition when applying for jobs</span>
+            <div class="panel">
+              <div class="row">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-trophy fa-stack-1x" style="color: #00B9F0;"></i>
+                </span>
+              </div>
+              <div class="row">
+                <hr>
+              </div>
+              <div class="row">
+                <span>View the competition when applying for jobs</span>
+              </div>
             </div>
           </div>
         </div>
