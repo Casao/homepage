@@ -1,10 +1,10 @@
-.new-homepage {
+.new-homepage  {
     background:#EFEFEF;
 }
-#resumeupload {
+.new-homepage #resumeupload  {
     margin:0 auto;
 }
-#dragdrop {
+.new-homepage #dragdrop  {
     background:#E0E0E0;
     margin:0 auto;
     border:2px solid #a1a1a1;
@@ -12,12 +12,12 @@
     color: #023658;
     text-align: center;
 }
-#dragdrop-outline {
+.new-homepage #dragdrop-outline  {
     border: 5px dashed #cccccc;
     border-radius: 25px;
     padding: .7em;
 }
-#panelRow > div {
+.new-homepage #panelRow > div  {
     width: 23%;
     margin-left: 2.6666%;
     position: relative;
@@ -26,116 +26,116 @@
     text-align: center;
 
 }
-#panelRow > .panel:first-child {
+.new-homepage #panelRow > .panel:first-child  {
     margin-left: 0;
 }
-.file-formats.row {
+.new-homepage .file-formats.row  {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
 }
-.file-formats span {
+.new-homepage .file-formats span  {
     color: #666666;
 }
-.file-formats strong {
+.new-homepage .file-formats strong  {
     margin: auto .25em;
 }
-.get-started {
+.new-homepage .get-started  {
     margin-top: 2.5em;
     font-family:'Open Sans',sans-serif;
 }
-.get-started h3 {
+.new-homepage .get-started h3  {
     color: #023658;
     font-size: 2.5em;
     font-weight: 300;
 }
-.get-started h5 {
+.new-homepage .get-started h5  {
     margin-top: -.7em;
     font-size: 1.5em;
     font-weight: 200;
 }
 
-.drag-drop.row {
+.new-homepage .drag-drop.row  {
     margin-top: 2.5em;
 }
 
-.drag-drop .icon.row {
+.new-homepage .drag-drop .icon.row  {
     margin-top: 2.5em;
 }
-.drag-drop-header {
+.new-homepage .drag-drop-header  {
     display:inline-block;
 }
-.drag-drop-header * {
+.new-homepage .drag-drop-header *  {
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
     font-weight: 400;
 }
-.drag-drop-header .cta-drag {
+.new-homepage .drag-drop-header .cta-drag  {
     font-size: 2.25em;
     font-weight: 300;
 }
 
-.drag-drop-header .cta-click {
+.new-homepage .drag-drop-header .cta-click  {
     font-size: 1.5em;
 }
-.drag-drop-header .row {
+.new-homepage .drag-drop-header .row  {
     margin-top: -.15em;
 }
 
-.hero h1 {
+.new-homepage .hero h1  {
     text-align: center;
 }
 
-.account-teaser > .row {
+.new-homepage .account-teaser > .row  {
     margin-top: 3em;
 }
 
-.account-teaser h4 {
+.new-homepage .account-teaser h4  {
     color: #023658;
     font-weight: 600;
     font-size: 1.5em;
     text-align: center;
 }
 
-.account-teaser i {
+.new-homepage .account-teaser i  {
     border-radius: 50%;
 }
 
-.account-teaser i.fa-flag {
+.new-homepage .account-teaser i.fa-flag  {
     color: #16B9B0;
     border-color: #16B9B0;
 }
-.account-teaser i.fa-bolt {
+.new-homepage .account-teaser i.fa-bolt  {
     color: #7DC332;
     border-color: #7DC332;
     padding: .2em .5em;
 }
-.account-teaser i.fa-bell {
+.new-homepage .account-teaser i.fa-bell  {
     color: #DC4B37;
     border-color: #DC4B37;
 }
-.account-teaser i.fa-trophy {
+.new-homepage .account-teaser i.fa-trophy  {
     color: #00B9F0;
     border-color: #00B9F0;
 }
-.popular-search {
+.new-homepage .popular-search  {
     background: #FFFFFF;
     border-top: 5px solid #CCCCCC;
 }
 
-.popular-search a.browse i {
+.new-homepage .popular-search a.browse i  {
     color: #023658;
     margin-right: 1em;
     font-size: 1.5em;
 }
 
-.popular-search h2 {
+.new-homepage .popular-search h2  {
     font-size: 2em;
 }
 
-.new-homepage .popular-search h1 {
+.new-homepage .popular-search h1  {
     font-size: 2.5em;
 }
 
-.popular-search a {
+.new-homepage .popular-search a  {
     font-weight: 400;
 }
