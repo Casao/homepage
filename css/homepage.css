@@ -119,5 +119,23 @@
 }
 .popular-search {
     background: #FFFFFF;
-    border-top: 5px solid #;
+    border-top: 5px solid #CCCCCC;
+}
+
+.popular-search a.browse i {
+    color: #023658;
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+
+.popular-search h2 {
+    font-size: 2em;
+}
+
+.new-homepage .popular-search h1 {
+    font-size: 2.5em;
+}
+
+.popular-search a {
+    font-weight: 400;
 }
