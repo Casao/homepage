@@ -1,5 +1,7 @@
+.new-homepage {
+    background:#EFEFEF;
+}
 #resumeupload {
-    background:#F8F8F8;
     margin:0 auto;
 }
 #dragdrop {
@@ -77,4 +79,45 @@
 }
 .drag-drop-header .row {
     margin-top: -.15em;
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+.account-teaser > .row {
+    margin-top: 3em;
+}
+
+.account-teaser h4 {
+    color: #023658;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.account-teaser i {
+    border-radius: 50%;
+}
+
+.account-teaser i.fa-flag {
+    color: #16B9B0;
+    border-color: #16B9B0;
+}
+.account-teaser i.fa-bolt {
+    color: #7DC332;
+    border-color: #7DC332;
+    padding: .2em .5em;
+}
+.account-teaser i.fa-bell {
+    color: #DC4B37;
+    border-color: #DC4B37;
+}
+.account-teaser i.fa-trophy {
+    color: #00B9F0;
+    border-color: #00B9F0;
+}
+.popular-search {
+    background: #FFFFFF;
+    border-top: 5px solid #;
 }
