@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Roboto+Slab:400,100,300,700');
+
 .new-homepage  {
     background:#EFEFEF;
 }
@@ -8,7 +10,7 @@
     background:#E0E0E0;
     margin:0 auto;
     border:2px solid #a1a1a1;
-    border-radius:25px;
+    border-radius: 10px;
     color: #023658;
     text-align: center;
 }
@@ -83,6 +85,9 @@
 
 .new-homepage .hero h1  {
     text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 .new-homepage .account-teaser > .row  {
